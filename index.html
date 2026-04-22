@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>114年度原住民多功能文化廚藝空間建置統包工程進度表</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .gantt-row:hover { background-color: #f8fafc; }
+    </style>
+</head>
+<body class="bg-slate-50 p-4 md:p-8 text-slate-800">
+
+
+    <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+        <!-- 頂部標題區 -->
+        <div class="bg-slate-900 p-6 text-white">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight mb-2">114年度原住民多功能文化廚藝空間建置統包工程</h1>
+                    <div class="flex flex-wrap gap-4 text-sm text-slate-300">
+                        <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-4 h-4 text-blue-400"></i> 屏東縣內埔鄉水門村成功路83號</span>
+                        <span class="flex items-center gap-1.5"><i data-lucide="file-text" class="w-4 h-4 text-blue-400"></i> 預算：2,711,000 元</span>
+                    </div>
+                </div>
+                <div class="bg-white/10 px-6 py-3 rounded-xl backdrop-blur-sm border border-white/20 text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">總履約天數</p>
+                    <p class="text-2xl font-mono font-bold text-blue-400">194 日曆天</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 圖例 -->
+        <div class="px-6 py-4 border-b border-slate-100 bg-slate-50 flex flex-wrap gap-6 text-xs font-bold text-slate-500 uppercase tracking-wide">
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-blue-500 shadow-sm"></div> 規劃設計</span>
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-amber-500 shadow-sm"></div> 審查修正</span>
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-emerald-500 shadow-sm"></div> 開工準備</span>
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-orange-600 shadow-sm"></div> 工程施工</span>
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-slate-400 shadow-sm"></div> 行政驗收</span>
+        </div>
+
+
+        <!-- 進度圖本體 -->
+        <div class="p-6 overflow-x-auto">
+            <div class="min-w-[800px]">
+                <!-- 月份時間軸 -->
+                <div class="flex mb-6 border-b-2 border-slate-100 pb-2 font-bold text-slate-400 text-xs">
+                    <div class="w-1/4">階段項目與時程</div>
+                    <div class="w-3/4 flex relative h-4">
+                        <span class="absolute left-[0%]">四月</span>
+                        <span class="absolute left-[20%]">五月</span>
+                        <span class="absolute left-[40%]">六月</span>
+                        <span class="absolute left-[60%]">七月</span>
+                        <span class="absolute left-[80%]">八月</span>
+                        <span class="absolute right-0">十月</span>
+                    </div>
+                </div>
+
+
+                <!-- 任務列表 -->
+                <div id="gantt-container" class="space-y-6">
+                    <!-- 1. 招標與決標 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="clipboard-list" class="w-4 h-4 text-slate-400"></i> 招標與決標
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/04/21 - 115/05/11 (21天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-slate-400 rounded shadow-sm" style="left: 0%; width: 10.8%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 2. 規劃設計期 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="pen-tool" class="w-4 h-4 text-blue-500"></i> 規劃設計期
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/05/12 - 115/06/15 (35天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-blue-500 rounded shadow-sm" style="left: 10.8%; width: 18%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 3. 校方審查修正 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="check-circle" class="w-4 h-4 text-amber-500"></i> 校方審查修正
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/06/16 - 115/06/29 (14天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-amber-500 rounded shadow-sm" style="left: 28.8%; width: 7.2%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 4. 開工申報準備 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="files" class="w-4 h-4 text-emerald-500"></i> 開工申報準備
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/06/30 - 115/07/06 (7天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-emerald-500 rounded shadow-sm" style="left: 36%; width: 3.6%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 5. 工程施工期 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="hard-hat" class="w-4 h-4 text-orange-600"></i> 工程施工期
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/07/07 - 115/10/04 (90天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-orange-600 rounded shadow-sm" style="left: 39.6%; width: 46.4%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 6. 驗收與結案 -->
+                    <div class="gantt-row group">
+                        <div class="flex items-center mb-1">
+                            <div class="w-1/4 pr-4">
+                                <div class="font-bold text-slate-700 text-sm flex items-center gap-2">
+                                    <i data-lucide="award" class="w-4 h-4 text-slate-400"></i> 驗收與結案
+                                </div>
+                                <div class="text-[10px] text-slate-400 font-mono">115/10/05 - 115/10/31 (27天)</div>
+                            </div>
+                            <div class="w-3/4 relative h-8 flex items-center">
+                                <div class="absolute inset-0 bg-slate-50 rounded-lg"></div>
+                                <div class="absolute h-6 bg-slate-400 rounded shadow-sm" style="left: 86%; width: 14%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 總務主任專屬提示區 -->
+        <div class="bg-blue-50 border-t border-blue-100 p-6 mt-4">
+            <div class="flex gap-4">
+                <i data-lucide="alert-circle" class="text-blue-600 shrink-0 w-6 h-6"></i>
+                <div>
+                    <h4 class="text-base font-bold text-blue-900 mb-2">郭主任！本案管理重點：</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white p-3 rounded-lg border border-blue-100">
+                            <p class="text-xs font-bold text-blue-600 mb-1">1. 文化意象確認 (6月)</p>
+                            <p class="text-[11px] text-slate-600 leading-relaxed">設計階段需確認排灣族「家屋」元素、百步蛇紋、石板等意象是否符合計畫需求。</p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg border border-blue-100">
+                            <p class="text-xs font-bold text-blue-600 mb-1">2. 開工與工期控管</p>
+                            <p class="text-[11px] text-slate-600 leading-relaxed">審查完後需在 7 日內要求廠商開工。本案總預算 2,711 萬為國教署補助，務必於 10 月底完成核銷。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center text-slate-400 text-[10px] mt-6 uppercase tracking-widest">
+        國立內埔高級農工職業學校 - 總務處 專案管理工具
+    </div>
+
+
+    <script>
+        // 初始化圖示
+        lucide.createIcons();
+    </script>
+</body>
+</html>
